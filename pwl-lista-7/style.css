@@ -76,6 +76,7 @@ h1{
     text-align: end;
     gap: 50px;
     display: flex;
+    list-style-type: none;
  }
 .item{ 
     font-size: 90px;        
