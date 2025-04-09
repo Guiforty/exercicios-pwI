@@ -1,0 +1,141 @@
+@font-face {
+    font-family: wax ;
+    src: url("FontesTexto/Copeland.otf");
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: wax ;
+}
+.logo{
+    text-align: start;
+    width: 10px;
+    height: 10px;
+
+
+}
+
+
+
+header{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 5px 3px 10px 1px purple;
+    align-items: center;
+    display: flex;
+    border: 10px;
+    height: 60px;
+}
+
+.container{
+    display: flex; /*alinhar os itens lado a lado*/
+    flex-wrap: wrap; /*para ajustar os produtos automaticamente na tela.*/
+    gap: 20px; /*para espaçar os elementos de forma uniforme*/
+    justify-content: center; /*para centralizar os itens na página.*/
+    background: linear-gradient(to top, rgba(91, 0, 128, 0.404),rgb(252, 248, 248),#3b016b77);
+    
+
+}
+
+.img1{
+    width: 300px;
+    height: 300px;
+    margin-top: 8px;
+}
+
+.card{
+    border: 2px solid;
+    width: 350px;
+    height: 580px;
+    text-align: center;
+    justify-items: center;
+    border-radius: 40px;
+    margin: 100px;
+    box-shadow: 5px 3px 10px 1px purple;
+    border-color: black;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.678),rgba(212, 0, 255, 0.226),#53008b);
+}
+
+.card:hover{
+    transition: 1.5s;
+    transform: scale(1.1);
+}
+
+
+h1{
+   justify-items: center;
+    margin-right: 1100px;
+}
+
+
+ ul{
+    text-align: end;
+    gap: 50px;
+    display: flex;
+ }
+.item{ 
+    font-size: 90px;        
+ 
+ }
+.item1:hover{
+    transition: 1,3s;
+    transform: scale(1.1);
+    color: rgba(253, 4, 253, 0.651);
+ }
+ .item2:hover{
+    transition: 1,3s;
+    transform: scale(1.1);
+    color: rgba(253, 4, 253, 0.651);
+ }
+ .item3:hover{
+    transition: 1,3s;
+    transform: scale(1.1);
+    color: rgba(253, 4, 253, 0.651);
+ }
+ .item4:hover{
+    transition: 1,3s;
+    transform: scale(1.1);
+    color: rgba(253, 4, 253, 0.651);
+ }
+ h4{
+    padding: 8px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;  
+
+ }
+
+span{
+    font-size: 30px;
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    padding: 2%;
+    display: block;
+}
+
+
+ p{
+    font-size: 30px;
+
+
+ }
+
+ button{
+    background-color: purple;
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    background: linear-gradient(90deg, rgba(42,0,45,1) 0%, rgba(22,44,121,1) 0%, rgba(231,0,255,1) 100%);
+    display: block;
+    width: 250px;
+    height: 40px;
+}
+ button:hover{
+    transition: 1.3s;
+    transform: scale(1.1);
+    color: rgb(255, 0, 179);
+ }

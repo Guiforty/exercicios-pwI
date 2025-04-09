@@ -1,0 +1,83 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    body{
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 3rem;
+    }
+    
+    .TABELA1{
+        
+        background-color: rgba(255, 255, 255, 0.555);
+        padding: 5px;
+        border-color: rgb(0, 0, 0);
+        margin: 1px;
+        margin-left: 25px;  
+        color: black; 
+        text-align: left;
+        border-radius: 10px;
+        box-shadow: 3px 3px 15px white;
+    }
+    
+    .cabeçatabela{
+    color: black;
+    text-align: center;
+    margin-left: 50px;
+    
+    }
+    
+    fieldset{
+    
+        border: 3px solid rgb(250, 203, 203);
+        border-radius: 15px;
+        color: rgb(0, 0, 0);
+        transform: scale(1.04);
+        box-shadow: 3px 3px 15px white;
+        margin: 10px;
+        padding: 30px;
+        border-top: 5px;
+        
+    }
+    
+    legend{
+    
+        border: 3px solid white;
+        border-radius: 8px;
+        padding: 5px;
+        text-align: center;
+        background-image: linear-gradient(to right, rgb(20, 147, 220), rgba(160, 197, 214, 0.822));
+        font-size: 30px;
+    }
+    
+    .dois{
+    
+        margin-inline: 10rem;
+        display: inline-block;
+        text-align: end;
+        margin-left: 250px;
+    }
+    
+    .tudo{
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 50px;
+        text-align: left;
+    }
+    .inputBox{
+    
+        text-align: center;
+    
+    }
+    
+    .texto1{
+    
+        color: white;
+        font-family: Arial, Helvetica, sans-serif
+    
+    }
+    
